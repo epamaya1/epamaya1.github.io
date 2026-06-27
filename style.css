@@ -9,5 +9,5 @@ body {
 .portrait {
   height: 90vh;
   width: auto;
-  mix-blend-mode: multiply;
+  mix-blend-mode: screen;
 }
