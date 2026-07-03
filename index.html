@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evan Amaya</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evan Amaya | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <img src="img403.png" class="portrait" alt="Evan Amaya" />
+  <div class="site-bg"></div>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="portrait-wrap reveal" aria-label="Portrait of Evan Amaya">
+        <div class="portrait-glow"></div>
+        <img src="assets/evan-cutout.png" alt="Evan Amaya" />
+      </div>
+
+      <div class="hero-copy reveal">
+        <h1>Evan Amaya</h1>
+        <p class="major">Computer Science and Engineering</p>
+        <p class="intro">
+          Rising University of Arizona senior focused on balancing academics,
+          fitness, and a healthy lifestyle.
+        </p>
+      </div>
+    </section>
+
+    <section id="highlights" class="highlights-section" aria-label="Scroll highlights">
+      <div class="highlights-stage">
+        <article class="highlight-card card-school reveal-on-scroll" data-step="0">
+          <span>School</span>
+          <h2>University of Arizona</h2>
+          <p>Computer Science and Engineering | 2027.</p>
+        </article>
+
+        <article class="highlight-card card-experience reveal-on-scroll" data-step="1">
+          <span>Experience</span>
+          <h2>Software Engineering</h2>
+          <p>Undergraduate Lab Assistant | Full Stack Engineering</p>
+        </article>
+
+        <article class="highlight-card card-links reveal-on-scroll" data-step="2">
+          <span>Hobbies</span>
+          <h2>Running & Soccer </h2>
+          <p>Love to train for half marathons, marathons, and triathlon. | Love to watch, play, and compete in soccer.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="content-grid section-shell">
+      <div class="section-title reveal">
+        <h2>About Me</h2>
+      </div>
+      <div class="info-card reveal">
+        <p>
+          Hello! I am a rising senior at the University of Arizona studying Computer Science
+          and Engineering. I love to involve my self in technology while maintaining a balanced and healthy lifestyle.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="content-grid section-shell">
+      <div class="section-title reveal">
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <h3>Undergraduate Lab Assistant</h3>
+          <p>Support undergraduate students during lab sessions with debugging, concept clarification, and technical troubleshooting. Hold weekly office hours to address questions on lab assignments, homework, and lecture readings. Collaborate with professors in weekly meetings to refine lecture content and improve lab quality.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <h3>Full Stack Engineer</h3>
+          <p>Develop NLP visualization tools and algorithms using Stanford CoreNLP, spaCy, and Stanza, engineering solutions to run without external library dependencies. Debug and manage version compatibility across complex NLP and data manipulation libraries in large-scale Python codebases. Led overhaul of a web-based client using Django and Docker, contributing across the full stack. Built UI components using HTML, CSS, JavaScript, and Python to improve user experience.
+</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell links-section">
+      <div class="section-title reveal">
+        <h2>Projects &amp; Profiles</h2>
+      </div>
+
+      <div class="link-grid">
+        <a class="link-card reveal" href="https://github.com/epamaya1" target="_blank" rel="noopener">
+          <span>GitHub</span>
+          <strong>Project code and repositories</strong>
+        </a>
+        <a class="link-card reveal" href="https://www.linkedin.com/in/evan-patrick-amaya-625a552b8/" target="_blank" rel="noopener">
+          <span>LinkedIn</span>
+          <strong>Professional profile</strong>
+        </a>
+        <!-- <a class="link-card reveal" href="#" target="_blank" rel="noopener">
+          <span>Résumé</span>
+          <strong>Resume link coming soon</strong> -->
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built by Evan Amaya.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
